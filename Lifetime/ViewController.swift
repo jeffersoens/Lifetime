@@ -7,6 +7,12 @@
 
 import UIKit
 
+let ruTime = Date.FormatStyle()
+    .year(.defaultDigits)
+    .day(.twoDigits)
+    .month(.twoDigits)
+    .locale(Locale(identifier: "ru_RU"))
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var todayDate: UILabel!
@@ -18,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateButtonTapped(_ sender: UIButton) {
-        todayDate.text = Date.now.formatted()
+        todayDate.text = Date.now.formatted(ruTime)
     }
     
 }
