@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64C8B22C2905722A00B0950C /* Days of life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Days of life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C8B22C2905722A00B0950C /* Lifetime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifetime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C8B22F2905722A00B0950C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C8B2312905722A00B0950C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		64C8B2332905722A00B0950C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		64C8B2232905722A00B0950C = {
 			isa = PBXGroup;
 			children = (
-				64C8B22E2905722A00B0950C /* Days of life */,
+				64C8B22E2905722A00B0950C /* Lifetime */,
 				64C8B22D2905722A00B0950C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		64C8B22D2905722A00B0950C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64C8B22C2905722A00B0950C /* Days of life.app */,
+				64C8B22C2905722A00B0950C /* Lifetime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64C8B22E2905722A00B0950C /* Days of life */ = {
+		64C8B22E2905722A00B0950C /* Lifetime */ = {
 			isa = PBXGroup;
 			children = (
 				64C8B22F2905722A00B0950C /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				64C8B23A2905722B00B0950C /* LaunchScreen.storyboard */,
 				64C8B23D2905722B00B0950C /* Info.plist */,
 			);
-			path = "Days of life";
+			path = Lifetime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64C8B22B2905722A00B0950C /* Days of life */ = {
+		64C8B22B2905722A00B0950C /* Lifetime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64C8B2402905722B00B0950C /* Build configuration list for PBXNativeTarget "Days of life" */;
+			buildConfigurationList = 64C8B2402905722B00B0950C /* Build configuration list for PBXNativeTarget "Lifetime" */;
 			buildPhases = (
 				64C8B2282905722A00B0950C /* Sources */,
 				64C8B2292905722A00B0950C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Days of life";
+			name = Lifetime;
 			productName = "Days of life";
-			productReference = 64C8B22C2905722A00B0950C /* Days of life.app */;
+			productReference = 64C8B22C2905722A00B0950C /* Lifetime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64C8B2272905722A00B0950C /* Build configuration list for PBXProject "Days of life" */;
+			buildConfigurationList = 64C8B2272905722A00B0950C /* Build configuration list for PBXProject "Lifetime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64C8B22B2905722A00B0950C /* Days of life */,
+				64C8B22B2905722A00B0950C /* Lifetime */,
 			);
 		};
 /* End PBXProject section */
@@ -289,22 +289,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W7Y73UQF4W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Days of life/Info.plist";
+				INFOPLIST_FILE = Lifetime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lifetime;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffersoens.Days-of-life";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersoens.Lifetime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,29 +322,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W7Y73UQF4W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Days of life/Info.plist";
+				INFOPLIST_FILE = Lifetime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lifetime;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffersoens.Days-of-life";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersoens.Lifetime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64C8B2272905722A00B0950C /* Build configuration list for PBXProject "Days of life" */ = {
+		64C8B2272905722A00B0950C /* Build configuration list for PBXProject "Lifetime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64C8B23E2905722B00B0950C /* Debug */,
@@ -348,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64C8B2402905722B00B0950C /* Build configuration list for PBXNativeTarget "Days of life" */ = {
+		64C8B2402905722B00B0950C /* Build configuration list for PBXNativeTarget "Lifetime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64C8B2412905722B00B0950C /* Debug */,
