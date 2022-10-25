@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Days of life
+//  Lifetime
 //
 //  Created by Вячеслав Горбатенко on 23.10.2022.
 //
