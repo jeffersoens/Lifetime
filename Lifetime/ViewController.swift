@@ -34,11 +34,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     
     private var birthday = Date()
-    private var lifetime = DateInterval()
-    private var minutes = 0.0
-    private var hours = 0.0
-    private var days = 0.0
-    
+    private var lifetime: Range<Date> = Date()..<Date()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -48,22 +45,17 @@ class ViewController: UIViewController {
     
     
     @IBAction func pickBirthday(_ sender: UIDatePicker) {
+        lifetime = sender.date..<Date.now
         birthday = sender.date
-        lifetime.start = birthday
-        lifetime.end = Date()
-        minutes = lifetime.duration / 60
-        hours = minutes / 60
-        days = hours / 24
     }
     
     @IBAction func calculateButtonTapped(_ sender: UIButton) {
         birthdayLabel.text = birthday.formatted(ruTime)
-        secondsLabel.text = Int(lifetime.duration).formatted()
-        minutesLabel.text = minutes.formatted()
-        hoursLabel.text = hours.formatted()
-        daysLabel.text = days.formatted()
-        // есть ошибки в расчетах
+        yearsLabel.text = lifetime.formatted(.components(style: .wide, fields: [.year]))
+        monthsLabel.text = lifetime.formatted(.components(style: .wide, fields: [.month]))
+        daysLabel.text = lifetime.formatted(.components(style: .wide, fields: [.day]))
+        hoursLabel.text = lifetime.formatted(.components(style: .wide, fields: [.hour]))
+        minutesLabel.text = lifetime.formatted(.components(style: .wide, fields: [.minute]))
+        secondsLabel.text = lifetime.formatted(.components(style: .wide, fields: [.second]))
     }
-    
 }
-

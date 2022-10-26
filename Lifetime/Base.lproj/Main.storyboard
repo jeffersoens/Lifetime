@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zKM-Vo-bUb" userLabel="Выбери свой день рождения">
-                                <rect key="frame" x="45.333333333333343" y="588.66666666666663" width="339.33333333333326" height="299.33333333333337"/>
+                                <rect key="frame" x="48.666666666666657" y="588.66666666666663" width="333" height="299.33333333333337"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выбери день своего рождения:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fgw-8D-3dT">
-                                        <rect key="frame" x="0.0" y="0.0" width="339.33333333333331" height="26.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите ваш день рождения:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fgw-8D-3dT">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="26.333333333333332"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="OoG-Ed-r7y">
-                                        <rect key="frame" x="9.6666666666666572" y="31.333333333333371" width="320" height="216"/>
+                                        <rect key="frame" x="6.3333333333333428" y="31.333333333333371" width="320" height="216"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <locale key="locale" localeIdentifier="ru"/>
@@ -35,7 +35,7 @@
                                         </connections>
                                     </datePicker>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLx-64-Ihf">
-                                        <rect key="frame" x="96.333333333333314" y="252.33333333333337" width="147" height="47"/>
+                                        <rect key="frame" x="93" y="252.33333333333337" width="147" height="47"/>
                                         <color key="backgroundColor" name="AccentColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
@@ -55,51 +55,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JBO-3Q-hU1" userLabel="Лет, месяцев, дней...">
-                                <rect key="frame" x="74.999999999999986" y="276" width="133.66666666666663" height="183"/>
+                                <rect key="frame" x="207" y="295.66666666666669" width="16" height="183"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gNM-Ye-cNV">
-                                        <rect key="frame" x="0.0" y="0.0" width="107.66666666666667" height="183"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Годах:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jrv-dm-ei5">
-                                                <rect key="frame" x="0.0" y="0.0" width="107.66666666666667" height="26.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Месяцах:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ube-QI-LkY">
-                                                <rect key="frame" x="0.0" y="31.333333333333314" width="107.66666666666667" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Днях:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ar9-Q8-kDf">
-                                                <rect key="frame" x="0.0" y="62.666666666666693" width="107.66666666666667" height="26.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Часах:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IOY-pS-EMu">
-                                                <rect key="frame" x="0.0" y="94" width="107.66666666666667" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Минутах:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6Sn-he-9Zy" userLabel="Минутах:">
-                                                <rect key="frame" x="0.0" y="125.3333333333333" width="107.66666666666667" height="26.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Секундах:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gzq-Ux-qHp">
-                                                <rect key="frame" x="0.0" y="156.66666666666669" width="107.66666666666667" height="26.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="61K-jb-MfO">
-                                        <rect key="frame" x="117.66666666666666" y="0.0" width="16" height="183"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="183"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gbZ-dR-qFf">
                                                 <rect key="frame" x="0.0" y="0.0" width="16" height="26.333333333333332"/>
@@ -114,7 +73,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zji-dB-aQo">
-                                                <rect key="frame" x="0.0" y="62.666666666666693" width="16" height="26.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="62.666666666666636" width="16" height="26.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -132,7 +91,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FFn-gm-qnT">
-                                                <rect key="frame" x="0.0" y="156.66666666666669" width="16" height="26.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="156.66666666666663" width="16" height="26.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -141,14 +100,17 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ты прожил в:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tj0-IX-MQN">
-                                <rect key="frame" x="122" y="226.33333333333334" width="186" height="34.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Всего вы прожили в разных единицах времени:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tj0-IX-MQN">
+                                <rect key="frame" x="65" y="176.66666666666666" width="300" height="103.99999999999997"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="j2i-bG-GpG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MeJ-9d-cRV" userLabel="Сегодня и день рождения">
-                                <rect key="frame" x="75" y="138.66666666666666" width="199" height="57.666666666666657"/>
+                                <rect key="frame" x="75" y="89" width="199" height="57.666666666666657"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fRf-T6-qd4">
                                         <rect key="frame" x="0.0" y="0.0" width="170.33333333333334" height="57.666666666666664"/>
@@ -160,7 +122,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="День рождения:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bsk-wf-Ys2">
-                                                <rect key="frame" x="0.0" y="31.333333333333343" width="170.33333333333334" height="26.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="31.333333333333329" width="170.33333333333334" height="26.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -177,7 +139,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-v9-Zl4">
-                                                <rect key="frame" x="0.0" y="31.333333333333343" width="16" height="26.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="31.333333333333329" width="16" height="26.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -186,12 +148,6 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Итого:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="T92-v3-mFB">
-                                <rect key="frame" x="168" y="89" width="94" height="34.666666666666657"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -200,17 +156,14 @@
                             <constraint firstItem="tj0-IX-MQN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C4k-Ho-UNZ"/>
                             <constraint firstItem="tj0-IX-MQN" firstAttribute="top" secondItem="MeJ-9d-cRV" secondAttribute="bottom" constant="30" id="DlP-9J-Rls"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="MeJ-9d-cRV" secondAttribute="trailing" constant="156" id="MPQ-HK-xlu"/>
-                            <constraint firstItem="JBO-3Q-hU1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Oct-IH-Ggo"/>
                             <constraint firstItem="MeJ-9d-cRV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="WLu-ER-xaR"/>
-                            <constraint firstItem="T92-v3-mFB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XXY-FW-6g3"/>
                             <constraint firstItem="zKM-Vo-bUb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YWS-ys-m6j"/>
-                            <constraint firstItem="T92-v3-mFB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cQD-2n-cDC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zKM-Vo-bUb" secondAttribute="bottom" constant="10" id="eIx-Ge-57k"/>
                             <constraint firstItem="zKM-Vo-bUb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="JBO-3Q-hU1" secondAttribute="bottom" constant="5" id="eNe-uK-vOR"/>
                             <constraint firstItem="zKM-Vo-bUb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="hF1-Ac-0e7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="JBO-3Q-hU1" secondAttribute="trailing" constant="228" id="jk9-iZ-OUC"/>
-                            <constraint firstItem="MeJ-9d-cRV" firstAttribute="top" secondItem="T92-v3-mFB" secondAttribute="bottom" constant="15" id="sL6-pe-z5T"/>
+                            <constraint firstItem="JBO-3Q-hU1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qpb-V7-QUD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zKM-Vo-bUb" secondAttribute="trailing" constant="5" id="tu1-Vq-xbi"/>
+                            <constraint firstItem="MeJ-9d-cRV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="xUi-2k-FgB"/>
                         </constraints>
                     </view>
                     <connections>
