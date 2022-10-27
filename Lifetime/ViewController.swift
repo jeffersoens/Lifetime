@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         
         todayLabel.text = Date.now.formatted(ruTime)
         datePicker.maximumDate = Date()
+        datePicker.setValue(UIColor.black, forKeyPath: "textColor")
+    }
+    
+    override func viewDidLayoutSubviews() {
     }
     
     
